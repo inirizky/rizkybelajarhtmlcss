@@ -1,0 +1,132 @@
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: rgb(228, 227, 227);
+}
+
+h1 {
+    display: flex;
+    color: red;
+    align-items: center;
+    justify-content: center;
+}
+
+.search {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.kotak {
+    margin: 20px;
+    padding: 10px;
+    border-style: none;
+    border-radius: 8px;
+}
+
+.kotak:focus {
+    border: none;
+    outline: none;
+
+}
+
+.tombol {
+    background-color: blue;
+    color: aliceblue;
+    text-transform: uppercase;
+    font-weight:700;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 16px;
+    padding-right: 16px;
+    border: none;
+    border-radius: 8px;
+    transition: opacity 0.2s;
+    cursor: pointer;
+    
+}
+
+.tombol:hover {
+    opacity: 0.6
+}
+
+.tombol:active {
+    opacity: 0.2;
+}
+
+.container {
+    margin: 10px;
+}
+
+.list {
+    display: flex;
+    gap: 30px;
+}
+
+.content {
+    border: none;
+    border-radius: 8px;
+    padding: 10px;
+    width: 180px;
+    background-color: white;
+    box-shadow: 10px 5px 10px rgba(70, 68, 68, 0.5);
+    
+    margin-bottom: 50px;
+}
+
+.image_content {
+    width: 100%;
+    transition: ease-in;
+}
+
+.image_content:hover {
+    transition: 0.2s;
+    transform: scale(1.02);
+}
+
+.contents {
+    margin: 20px;
+    border: none;
+    border-radius: 8px;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 10px 5px 10px rgba(70, 68, 68, 0.5);
+    transition: ease-in;
+}
+
+.contents:hover {
+    transition: 0.2s;
+    transform: scale(1.02);
+}
+
+.navbar {
+    position: sticky;
+    bottom: 0;
+    background-color: rgb(125, 46, 138);
+    
+}
+.nav_list {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav_list a{
+    
+    padding: 12px;
+    text-decoration: none;
+    color: white;
+}
+
+.nav_list a:hover{
+    color: rgb(117, 166, 209);
+}
+
+/* Google Icon */
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
