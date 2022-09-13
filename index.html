@@ -5,51 +5,81 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>INI RIZKY</title>
+    
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./imut.css" />
+    <script src="https://kit.fontawesome.com/3b1298716a.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <h1>Ini Rizky</h1>
-    
-    <div class="search">
-    <input class="kotak" placeholder="Cari barang favoritmu..."></input>
-    <button class="tombol">Search</button>
-    </div>
-   
+    <nav>
+        <h1 href="/">TOKO RIZKY</h1>
+        
+        <div class="search">
+            <input class="search_input" placeholder="Cari barang favoritmu..."></input>
+            <button class="search_button"><i class="fa-solid fa-magnifying-glass"></i></button>
+        </div> 
+        <ul class="nav_list">
+            <li><a href="">Home</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Promo</a></li>
+            <li><a href="">Category</a></li>
+        </ul>
+</nav> 
+
     <div class="container">
-        <h2>Smartphones</h2>
-        <div class="list">
-            <div class="content">
-                <img src="https://cdn.eraspace.com/pub/media/catalog/product/r/e/realme_narzo_just_black_1.jpg" alt="" class="image_content">
+        <!-- Featured -->
+        <h2 class="section">Featured</h2>
+        <div class="featured">
+            <img src="https://assets.pikiran-rakyat.com/crop/0x0:0x0/x/photo/2022/07/25/1742574414.jpg" alt="">
+            <div class="body_featured">
+                <h3>iPhone 14 Pro Max 8/512GB Pink Venom</h3>
+                <p>Rp. 24.899.000</p>
+            </div>
+        </div>
+
+        <!-- Product -->
+        <h2 class="section">Smartphones</h2>
+        <div class="product_list">
+            <!-- List Product Smartphones -->
+            <div class="product">
+                <img src="https://cdn.eraspace.com/pub/media/catalog/product/r/e/realme_narzo_just_black_1.jpg" alt="" >
                 <h3>Realme Narzo 50Z 8/128GB</h3>
                 <p>Rp. 1.699.000</p>
             </div>
-            <div class="content">
-                <img src="https://images.samsung.com/za/smartphones/galaxy-z-flip4/buy/Flip4_Carousel_ProductKV_BoraPurple_MO.jpg" alt="" class="image_content">
+            <div class="product">
+                <img src="https://images.samsung.com/za/smartphones/galaxy-z-flip4/buy/Flip4_Carousel_ProductKV_BoraPurple_MO.jpg" alt="">
                 <h3>Samsung Flip Z 5 8/512GB</h3>
                 <p>Rp. 5.699.000</p>
             </div>
-            <div class="content">
-                <img src="https://i01.appmifile.com/webfile/globalimg/Joy/800/D1-blue.jpg?thumb=1&w=1082&h=1082&width=1082&height=1082" alt="" class="image_content">
+            <div class="product">
+                <img src="https://i01.appmifile.com/webfile/globalimg/Joy/800/D1-blue.jpg?thumb=1&w=1082&h=1082&width=1082&height=1082" alt="" >
+                <h3>Xiaomi Redmi 5 2/16 GB</h3>
+                <p>Rp. 1.899.000</p>
+            </div>
+            <div class="product">
+                <img src="https://images.samsung.com/za/smartphones/galaxy-z-flip4/buy/Flip4_Carousel_ProductKV_BoraPurple_MO.jpg" alt="">
+                <h3>Samsung Flip Z 5 8/512GB</h3>
+                <p>Rp. 5.699.000</p>
+            </div>
+            <div class="product">
+                <img src="https://cdn.eraspace.com/pub/media/catalog/product/r/e/realme_narzo_just_black_1.jpg" alt="">
+                <h3>Realme Narzo 50Z 8/128GB</h3>
+                <p>Rp. 1.699.000</p>
+            </div>
+            <div class="product">
+                <img src="https://i01.appmifile.com/webfile/globalimg/Joy/800/D1-blue.jpg?thumb=1&w=1082&h=1082&width=1082&height=1082" alt="">
                 <h3>Xiaomi Redmi 5 2/16 GB</h3>
                 <p>Rp. 1.899.000</p>
             </div>
         </div>
-    </div>
+        
 
-    <div class="about contents" id="about">
-        <h3>About us</h3>
-        <p>Ini Rizky merupakan tempat jual beli online terpercaya sejak lahir</p>
-    </div>
-    <div class="navbar">
-        <div class="nav_list">
-            <a href="#">Home</a>
-            <a href="/">Smartphones</a>
-            <a href="#about">About</a>
-
-        </div>
+        <footer id="about">
+            <h3>About us</h3>
+            <p>Ini Rizky merupakan tempat jual beli online terpercaya sejak lahir</p>
+        </footer>
     </div>
 </body>
 </html>
