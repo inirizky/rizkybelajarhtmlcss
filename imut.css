@@ -13,6 +13,7 @@ nav {
     justify-content: space-between;
     align-items: center;
     padding: 24px;
+    flex-wrap: wrap;
     
 }
 
@@ -45,6 +46,7 @@ nav h1{
 nav .search {
     display:flex ;
     position: relative;
+    max-width: 100%;
 }
 
 nav .search_input {
@@ -53,6 +55,7 @@ nav .search_input {
     border-bottom: thin solid rgb(235, 235, 235);
     border-radius: 8px;
     width: 486px;
+    
     padding: 8px 32px 8px 12px;
     background-color: #e8f5fc;
     box-sizing: border-box;
@@ -110,7 +113,7 @@ nav .search_button:hover {
 .featured {
     display: flex;
     align-items: center;
-    width: 700px; 
+    width: 60%; 
     background-color: white;
     box-sizing: border-box;
     padding: 14px;
@@ -146,7 +149,6 @@ nav .search_button:hover {
     background-color: white;
     box-shadow: 10px 5px 10px rgba(70, 68, 68, 0.12);
     box-sizing: border-box;
-    margin-bottom: 24px;
 }
 
 .product img {
@@ -172,6 +174,7 @@ nav .search_button:hover {
 }
 
 footer {
+    margin-top: 24px;
     border: none;
     border-radius: 8px;
     padding: 20px;
